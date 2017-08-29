@@ -3,6 +3,14 @@ AssertJ Android
 
 A set of AssertJ assertions geared toward testing Android.
 
+## Deprecated
+
+The support libraries and play services are developing at a rate which this library cannot sustain. Additionally, we no longer think AssertJ's model for supporting alternate assertions is a good practice.
+
+We recommend using [Truth](https://github.com/google/truth) which has vastly superior extensibility model which, when coupled with things like Kotlin's `apply` method create a really nice assertion experience.
+
+---
+
 Writing tests is not the most glamorous part of developing an Android
 application but it is an invaluable one. Using libraries like JUnit and AssertJ
 provide a great starting point for writing tests.
@@ -148,52 +156,52 @@ Download
 
 Android module:
 ```groovy
-androidTestCompile 'com.squareup.assertj:assertj-android:1.1.1'
+androidTestCompile 'com.squareup.assertj:assertj-android:1.2.0'
 ```
 
 support-v4 module:
 ```groovy
-androidTestCompile 'com.squareup.assertj:assertj-android-support-v4:1.1.1'
+androidTestCompile 'com.squareup.assertj:assertj-android-support-v4:1.2.0'
 ```
 
 Google Play Services module:
 ```groovy
-androidTestCompile 'com.squareup.assertj:assertj-android-play-services:1.1.1'
+androidTestCompile 'com.squareup.assertj:assertj-android-play-services:1.2.0'
 ```
 
 appcompat-v7 module:
 ```groovy
-androidTestCompile 'com.squareup.assertj:assertj-android-appcompat-v7:1.1.1'
+androidTestCompile 'com.squareup.assertj:assertj-android-appcompat-v7:1.2.0'
 ```
 
 Design library module:
 ```groovy
-androidTestCompile 'com.squareup.assertj:assertj-android-design:1.1.1'
+androidTestCompile 'com.squareup.assertj:assertj-android-design:1.2.0'
 ```
 
 mediarouter-v7 module:
 ```groovy
-androidTestCompile 'com.squareup.assertj:assertj-android-mediarouter-v7:1.1.1'
+androidTestCompile 'com.squareup.assertj:assertj-android-mediarouter-v7:1.2.0'
 ```
 
 gridlayout-v7 module:
 ```groovy
-androidTestCompile 'com.squareup.assertj:assertj-android-gridlayout-v7:1.1.1'
+androidTestCompile 'com.squareup.assertj:assertj-android-gridlayout-v7:1.2.0'
 ```
 
 cardview-v7 module:
 ```groovy
-androidTestCompile 'com.squareup.assertj:assertj-android-cardview-v7:1.1.1'
+androidTestCompile 'com.squareup.assertj:assertj-android-cardview-v7:1.2.0'
 ```
 
 recyclerview-v7 module:
 ```groovy
-androidTestCompile 'com.squareup.assertj:assertj-android-recyclerview-v7:1.1.1'
+androidTestCompile 'com.squareup.assertj:assertj-android-recyclerview-v7:1.2.0'
 ```
 
 palette-v7 module:
 ```groovy
-androidTestCompile 'com.squareup.assertj:assertj-android-palette-v7:1.1.1'
+androidTestCompile 'com.squareup.assertj:assertj-android-palette-v7:1.2.0'
 ```
 
 Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].

@@ -2,12 +2,11 @@ after_success:
 - .buildscript/deploy_snapshot.sh
 android:
   components:
-  - tools
-  - platform-tools
-  - build-tools-25.0.0
-  - extra-android-m2repository
-  - extra-google-m2repository
-  - android-25
+    - tools
+    - platform-tools
+    - build-tools-26.0.1
+    - extra-google-m2repository
+    - android-26
 before_install:
 - wget https://dl.dropboxusercontent.com/u/7897865/apache-maven-3.3.9.zip
 - unzip -qq apache-maven-3.3.9.zip
